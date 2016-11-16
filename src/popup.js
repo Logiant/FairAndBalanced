@@ -6,7 +6,7 @@ var warnings = ["is in the database of misleading websites",
                 "is known to distort headlines and report dubious information to generate likes, shares, and profits",
                 "may circulate misleading and/or potentially unreliable information",
                 "is known to use clickbait headlines and descriptions",
-                "is known satire"];
+                "is a satire website"];
 
 // request the raw text data file from the github repository
 var dataFile = new XMLHttpRequest();
