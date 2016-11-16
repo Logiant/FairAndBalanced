@@ -1,22 +1,30 @@
 {
     "manifest_version": 2,
     "name": "Fair and Balanced",
-    
+
     "description": "Rates malicious news sites on a 1-4 scale",
-    
+
     "version": "1.0",
 
-  "browser_action": {
-    "default_icon": "Okay.png",
-    "default_popup": "popup.html",
-    "default_title": "Unknown Website"
-  },
-    
-    
-  "permissions": [
+    "browser_action": {
+        "default_icon": "Okay.png",
+        "default_popup": "popup.html",
+        "default_title": "Unknown Website"
+    },
+
+
+    "background": {
+        "scripts": ["popup.js"]
+    },
+
+
+    "permissions": [
     "activeTab",
     "https://ajax.googleapis.com/"
   ]
-    
-    
+
+
+
+
+
 }
